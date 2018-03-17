@@ -1,0 +1,22 @@
+{
+    "name": "hadefication/clay",
+    "description": "Just another content management system as a package for Laravel",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hadefication\\Clay\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hadefication\\Clay\\ClayServiceProvider"
+            ]
+        }
+    }
+}
